@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <com.fzb.ballnaimation.view.LoadView
+        android:id="@+id/loadview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:ballcolor="@color/colorAccent"
+        app:bollradius="4dp"
+        app:linecolor="@color/colorPrimary"
+        app:linelenght="200dp"
+        app:linewidth="1dp"
+        app:maxdown="40dp"
+        app:maxup="40dp"
+        />
+
+
+</RelativeLayout>

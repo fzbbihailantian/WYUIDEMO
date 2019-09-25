@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadView">
+        <attr name="ballcolor" format="color"/>
+        <attr name="linecolor" format="color"/>
+        <attr name="linewidth" format="dimension"/>
+        <attr name="linelenght" format="dimension"/>
+        <attr name="bollradius" format="dimension"/>
+        <attr name="maxup" format="dimension"/>
+        <attr name="maxdown" format="dimension"/>
+    </declare-styleable>
+</resources>
